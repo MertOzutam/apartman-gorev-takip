@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# 🏢 Apartman Görev Takip Uygulaması
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, apartman içindeki görevlerin kolayca yönetilmesini sağlayan bir **React tabanlı görev takip uygulamasıdır**. Kullanıcılar görev ekleyebilir, düzenleyebilir, silebilir ve tamamlanma durumuna göre filtreleyebilir.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Canlı Demo
 
-### `npm start`
+🔗 https://symphonious-florentine-afce9d.netlify.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Kullanılan Teknolojiler
 
-### `npm test`
+* ⚛️ React (useState, useEffect)
+* 🎨 Bootstrap
+* 💾 LocalStorage (veri kalıcılığı)
+* 🌙 Dark Mode desteği
+* 🔔 Toast bildirim sistemi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Özellikler
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* ➕ Görev ekleme
+* 🗑️ Görev silme
+* ✏️ Görev güncelleme
+* ✅ Görev tamamlama
+* 🔍 Filtreleme (Tümü / Aktif / Tamamlanan)
+* 🌙 Dark Mode / Light Mode
+* 🔔 Kullanıcıya anlık bildirim (Toast)
+* 💾 Verilerin tarayıcıda saklanması
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Ekran Görüntüleri
 
-### `npm run eject`
+### ☀️ Light Mode
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="1309" height="642" alt="image" src="https://github.com/user-attachments/assets/fdd0e83b-224a-4c25-8cf1-9c908601fa58" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🌙 Dark Mode
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="1309" height="641" alt="image" src="https://github.com/user-attachments/assets/18daab7c-14cc-4b52-8262-82ed625a2e43" />
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📂 Proje Kurulumu
 
-### Code Splitting
+Projeyi kendi bilgisayarınızda çalıştırmak için:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/MertOzutam/apartman-gorev-takip.git
+cd apartman-gorev-takip
+npm install
+npm start
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📦 Build Alma
 
-### Making a Progressive Web App
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🎯 Proje Amacı
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Bu proje, modern web geliştirme süreçlerini öğrenmek amacıyla geliştirilmiştir.
+React kullanımı, state yönetimi, kullanıcı deneyimi ve deploy süreçleri pratiği yapılmıştır.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👨‍💻 Geliştirici
 
-### `npm run build` fails to minify
+**Mert Murat Özütam**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📌 Not
+
+Bu proje eğitim amaçlı geliştirilmiştir.
